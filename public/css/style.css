@@ -1,0 +1,30 @@
+body {
+	background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(161, 140, 209), rgb(251, 194, 235));
+}
+
+.character {
+	display: flex;
+	margin: 10px;
+	box-shadow: 0 14px 30px rgba(1, 1, 1, 0.1);
+	vertical-align: middle;
+    text-align: center;
+	box-sizing: content-box;
+}
+
+.character img {
+	height: 150px;
+}
+.small {
+	display: flex;
+	flex-wrap: wrap;
+}
+.small .character {
+	flex-direction: row;
+	width: 100px;
+}
+.small .character img{
+	width: 100px;
+}
+img, a {
+	object-fit: fill;
+}
